@@ -1,0 +1,181 @@
+div.a {
+    text-align: center;
+    
+    }
+    .borda {
+            border-top: 70px solid  rgb(145, 1, 1);
+            background-color: rgb(255, 255, 255);
+            transition: 1s;
+            cursor: pointer;
+          }
+          .borda:hover{
+            border: 30px solid rgb(255, 196, 0);
+            background-color: rgba(255, 0, 0, 0.705);
+            transition: 1s;
+          }
+        
+    
+    .image {
+      width: 20px;
+      height: 10px;
+      background-image: url(favicon.png);
+      background-size: 62px;
+      text-shadow: white 0px 0px 2px;
+      font-size: 16px;
+    }
+    
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    #menu-h{
+        background-color: rgb(37, 37, 39);
+    }
+    
+    #menu-h ul {
+        max-width: 800px;
+        list-style: none;
+        padding: 0;
+    }
+    
+    #menu-h ul li {
+        display: inline;
+    }
+    
+    #menu-h ul li a {
+        color: rgb(184, 184, 184);
+        padding: 20px;
+        display: inline-block;
+        text-decoration: none;
+        transition: background .4s;
+    }
+    
+    #menu-h ul li a:hover {
+        background-color: rgb(24, 139, 233);
+    }
+    
+    #menu-h ul li:last-child a {
+        float: right;
+        background-color: rgb(24, 139, 233);
+    }
+    /*/divendo/*/
+    html{
+      font-size: 62.5%;
+    }
+    body{
+      background-color: rgba(0, 0, 0, .1);
+    }
+    
+    header{
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+    }
+    header h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3rem;
+      font-weight: 900;
+      color: rgb(0, 0, 0);
+    }
+    
+    .duo{
+        background-attachment: fixed;
+    }
+    
+    /*/Dividendo/*/
+    
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        padding: 700px;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .polaroid{
+        background: white;
+        padding: 20px 25px 10px;
+    
+    }
+    .one {
+        width: 790px;
+        height: 290px;
+        object-fit: contain;
+    }
+    
+    /*/divisoria/*/
+    
+    .tooltip{
+        background: #a13830;
+        color:white;
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(20% at 98% 20%);
+        transition: all .3s ease-in-out ;
+        cursor: pointer;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+    .tooltip:hover{
+     clip-path: circle(100%);
+    }
+    
+    .icon{
+        float: right;
+        font-weight: bold;
+        margin-right: 3% ;
+    }
+    
+    .tooltop{
+        background: rgb(90, 0, 0);
+        color: white;
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(20% at 98% 20%);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+    .tooltop:hover{
+        clip-path: circle(100%);
+    }
+    .pop{
+        float: right;
+        font-weight: bold;
+        margin-right: 3%;
+    }
+    
+    .tooltap{
+        background: white;
+        color: rgb(156, 48, 48);
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(20% at 98% 20%);
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+    }
+    .tooltap:hover{
+        clip-path: circle(100%);
+    }
+    .lot{
+        float: right;
+        font-weight: bold;
+        margin-right: 3%;
+        color:rgb(90, 0, 0)
+    }
